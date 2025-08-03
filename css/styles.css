@@ -1,3 +1,24 @@
+/* —— Header Navigation —— */
+header nav {
+  display: flex;
+  justify-content: center;  /* center them in the header */
+  gap: 2rem;                /* space between each link */
+  margin: 1rem 0;           /* vertical padding */
+}
+
+header nav a {
+  font-weight: 600;
+  color: #333;
+  text-decoration: none;
+  padding-bottom: 0.25rem;  /* gives a little breathing room for the underline */
+}
+
+header nav a.active,
+header nav a:hover {
+  border-bottom: 2px solid currentColor;
+}
+
+
 body {
   font-family: system-ui, sans-serif;
   margin: 0;
@@ -54,5 +75,6 @@ header, footer {
 section {
   margin-bottom: 2rem;
 }
+
 
 
