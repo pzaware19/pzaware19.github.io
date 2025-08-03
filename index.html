@@ -2,58 +2,60 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta
-    name="viewport"
-    content="width=device-width, initial-scale=1.0"
-  />
-  <title>Your Name | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Piyush Zaware | Home</title>
   <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
   <header>
+    <!-- Profile Photo -->
+    <img
+      src="images/pfp.jpg"
+      alt="Piyush Zaware"
+      class="profile-photo"
+    />
+
+    <!-- Your Name -->
     <h1>Piyush Zaware</h1>
+
+    <!-- Site Navigation -->
     <nav>
-      <a href="#projects">Projects</a>
-      <a href="#about">About</a>
-      <a href="#contact">Contact</a>
-      <img
-    src="images/pfp.jpg"
-    alt="Piyush Zaware"
-    class="profile-photo"
-  />
-  <h1>Piyush Zaware</h1>
-  <nav>…</nav>
+      <ul class="site-nav">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="cv.html">CV</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="writings.html">Writings</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
     </nav>
   </header>
 
   <main>
-    <section id="projects">
-      <h2>Selected Projects</h2>
-      <p><em>(Add your project cards here.)</em></p>
-    </section>
-
-    <section id="about">
+    <!-- About Me Section -->
+    <section id="about-me">
       <h2>About Me</h2>
-      <p>
-        I’m a Master of Public Policy student at Harris School of Public Policy University of Chicago. I currently work with Dr James Heckman 
-      </p>
-    </section>
-
-    <section id="contact">
-      <h2>Contact</h2>
-      <ul>
-        <li>Email: <a href="piyushz@uchicago.edu">piyushz@uchicago.edu</a></li>
-        <li>
-          LinkedIn:
-          <a href="www.linkedin.com/in/piyush-zaware"
-            >Piyush Zaware</a
-          >
-        </li>
-        <li>
-          GitHub:
-          <a href="https://github.com/pzaware19">pzaware19</a>
-        </li>
-      </ul>
+      <div class="about-grid">
+        <div>
+          <h3>Research</h3>
+          <p>
+            I’m a Research Assistant at the Center for Economics of Human Development,
+            working with Prof. James Heckman on economics of family structure and early childhood interventions.
+          </p>
+        </div>
+        <div>
+          <h3>Education</h3>
+          <p>
+            I am pursuing a Master of Public Policy from the Harris School of Public Policy,
+            University of Chicago, and a Bachelors in Mechanical Engineering from Thapar University, Patiala, India.
+          </p>
+        </div>
+        <div>
+          <h3>Extra</h3>
+          <p>
+            I’m also an avid write, who has written blogs and opinion articles in Indian newspapers”
+          </p>
+        </div>
+      </div>
     </section>
   </main>
 
@@ -64,6 +66,5 @@
   <script src="js/main.js"></script>
 </body>
 </html>
-
 
 
