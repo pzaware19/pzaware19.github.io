@@ -11,6 +11,16 @@ header, footer {
   padding: 1rem;
 }
 
+.profile-photo {
+  display: block;
+  margin: 0 auto 1rem;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+}
+
 nav a {
   margin: 0 0.5rem;
   text-decoration: none;
@@ -26,3 +36,4 @@ main {
 section {
   margin-bottom: 2rem;
 }
+
