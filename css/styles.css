@@ -30,9 +30,8 @@ header {
     /* navy-to-forest overlay keeps text readable and preserves the theme */
     linear-gradient(
       to bottom,
-      rgba(13, 33, 55, 0.83) 0%,
-      rgba(13, 33, 55, 0.72) 45%,
-      rgba(27, 77, 50, 0.78) 100%
+      rgba(0, 0, 0, 0.35) 0%,
+      rgba(0, 0, 0, 0.20) 100%
     ),
     url('../images/image.jpeg') center center / cover no-repeat;
   color: #fff;
@@ -48,6 +47,7 @@ header h1 {
   font-weight: 600;
   margin: 0.6rem 0 0.2rem;
   letter-spacing: 0.02em;
+  text-shadow: 0 1px 6px rgba(0,0,0,0.6);
 }
 
 .profile-photo {
@@ -73,12 +73,13 @@ header nav a {
   font-family: var(--font-ui);
   font-weight: 500;
   font-size: 0.82rem;
-  color: rgba(255, 255, 255, 0.75);
+  color: rgba(255, 255, 255, 0.9);
   text-decoration: none;
   letter-spacing: 0.07em;
   text-transform: uppercase;
   padding-bottom: 0.2rem;
   transition: color 0.2s;
+  text-shadow: 0 1px 4px rgba(0,0,0,0.5);
 }
 
 header nav a.active,
