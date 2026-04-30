@@ -27,18 +27,14 @@ body {
 /* —— Header —— */
 header {
   background:
-    /* subtle diagonal texture lines */
-    repeating-linear-gradient(
-      -60deg,
-      transparent,
-      transparent 50px,
-      rgba(255, 255, 255, 0.018) 50px,
-      rgba(255, 255, 255, 0.018) 51px
+    /* navy-to-forest overlay keeps text readable and preserves the theme */
+    linear-gradient(
+      to bottom,
+      rgba(13, 33, 55, 0.83) 0%,
+      rgba(13, 33, 55, 0.72) 45%,
+      rgba(27, 77, 50, 0.78) 100%
     ),
-    /* warm earth glow at base — field/horizon feel */
-    radial-gradient(ellipse at 50% 130%, rgba(180, 110, 55, 0.38) 0%, transparent 58%),
-    /* core gradient: deep midnight → navy → dark forest → canopy green */
-    linear-gradient(155deg, #0D2137 0%, #1B3A4B 35%, #1E4D35 68%, #2E7D52 100%);
+    url('../images/image.jpeg') center center / cover no-repeat;
   color: #fff;
   padding: 3rem 1rem 2rem;
   text-align: center;
