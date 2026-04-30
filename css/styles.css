@@ -26,11 +26,24 @@ body {
 
 /* —— Header —— */
 header {
-  background: var(--color-primary);
+  background:
+    /* subtle diagonal texture lines */
+    repeating-linear-gradient(
+      -60deg,
+      transparent,
+      transparent 50px,
+      rgba(255, 255, 255, 0.018) 50px,
+      rgba(255, 255, 255, 0.018) 51px
+    ),
+    /* warm earth glow at base — field/horizon feel */
+    radial-gradient(ellipse at 50% 130%, rgba(180, 110, 55, 0.38) 0%, transparent 58%),
+    /* core gradient: deep midnight → navy → dark forest → canopy green */
+    linear-gradient(155deg, #0D2137 0%, #1B3A4B 35%, #1E4D35 68%, #2E7D52 100%);
   color: #fff;
-  padding: 2rem 1rem 1.5rem;
+  padding: 3rem 1rem 2rem;
   text-align: center;
   border-bottom: 4px solid var(--color-accent);
+  position: relative;
 }
 
 header h1 {
